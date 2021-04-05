@@ -23,5 +23,11 @@ public class ResetPosition : MonoBehaviour
         {
             transform.localPosition = originalPos;
         }
+
+        else if (other.gameObject.CompareTag("CLOUDWALL"))
+        {
+            transform.localPosition = originalPos;
+        }
+
     }
 }
